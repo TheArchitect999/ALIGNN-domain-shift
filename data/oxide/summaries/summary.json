@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "all": 14991,
+    "pool": 13507,
+    "test": 1484,
+    "train": 11960,
+    "val": 1547
+  },
+  "dataset_key": "dft_3d_2021",
+  "family": "oxide",
+  "oxynitride_count_in_family": 499,
+  "split_source": "provided:data/manifests/dft_3d_formation_energy_peratom_splits.csv",
+  "target_key": "formation_energy_peratom"
+}

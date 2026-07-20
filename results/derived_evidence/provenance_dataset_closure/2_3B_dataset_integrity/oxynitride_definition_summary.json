@@ -1,0 +1,22 @@
+{
+  "approved_definition": {
+    "nitride": "contains N and does not contain O",
+    "oxide": "contains O, including O+N records",
+    "oxynitride": "contains both O and N; retained only in oxide arm"
+  },
+  "nitride_oxynitride_count": 0,
+  "oxynitride_count": 499,
+  "oxynitride_split_counts": {
+    "test": 57,
+    "train": 400,
+    "val": 42
+  },
+  "pure_oxide_counts": {
+    "all": 14492,
+    "pool": 13065,
+    "test": 1427,
+    "train": 11560,
+    "val": 1505
+  },
+  "sensitivity_analysis_performed": false
+}

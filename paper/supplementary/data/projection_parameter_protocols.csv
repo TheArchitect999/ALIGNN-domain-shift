@@ -1,0 +1,7 @@
+method,source_path,source_sha256,embedding_source,run_name,perplexity,n_rows,n_dimensions,standardized_before_tsne,pre_reduction,n_components,learning_rate,init,metric,random_state,max_iter,n_iter,kl_divergence
+t-SNE,results/embeddings/coordinates/tsne/tsne_parameter_manifest.csv,0c161acddd711420a3b6e3a8c63af0703e303ca5a29f8cbd257c51444b4b0279,last_alignn_pool,fixed_test_set,30,1726,256,True,none,2,auto,pca,euclidean,42,1000,999,0.9838628768920898
+t-SNE,results/embeddings/coordinates/tsne/tsne_parameter_manifest.csv,0c161acddd711420a3b6e3a8c63af0703e303ca5a29f8cbd257c51444b4b0279,last_alignn_pool,fixed_test_set,15,1726,256,True,none,2,auto,pca,euclidean,42,1000,999,1.0225677490234375
+t-SNE,results/embeddings/coordinates/tsne/tsne_parameter_manifest.csv,0c161acddd711420a3b6e3a8c63af0703e303ca5a29f8cbd257c51444b4b0279,last_alignn_pool,fixed_test_set,50,1726,256,True,none,2,auto,pca,euclidean,42,1000,999,0.9705909490585327
+UMAP,results/embeddings/coordinates/umap/umap_parameter_manifest.csv,6f4384772ee359a8c2de84f4372c19f4bde0eded36dadc849425fce760adbe79,last_alignn_pool,fixed_test_set,,1726,256,,none,2,,,euclidean,42,,,
+UMAP,results/embeddings/coordinates/umap/umap_parameter_manifest.csv,6f4384772ee359a8c2de84f4372c19f4bde0eded36dadc849425fce760adbe79,last_alignn_pool,fixed_test_set,,1726,256,,none,2,,,euclidean,42,,,
+UMAP,results/embeddings/coordinates/umap/umap_parameter_manifest.csv,6f4384772ee359a8c2de84f4372c19f4bde0eded36dadc849425fce760adbe79,last_alignn_pool,fixed_test_set,,1726,256,,none,2,,,euclidean,42,,,

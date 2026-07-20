@@ -1,0 +1,3 @@
+family,model_name,n_test,mae_eV_per_atom,predictions_csv
+oxide,jv_formation_energy_peratom_alignn,1484,0.03418360680813096,results/zero_shot/oxide/predictions.csv
+nitride,jv_formation_energy_peratom_alignn,242,0.06954201496284854,results/zero_shot/nitride/predictions.csv

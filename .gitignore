@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Caches / LMDB
+cache/
+*.mdb
+*_lmdb/
+id_prop.csv*_data/
+id_prop.csv*_data_range
+
+# Fetched or regenerated artifacts (obtain via scripts/setup; see docs/REPRODUCING.md)
+models/pretrained/
+zenodo_artifacts/
+**/*.vasp
+
+# OS / editor noise
+.DS_Store
+.ipynb_checkpoints/

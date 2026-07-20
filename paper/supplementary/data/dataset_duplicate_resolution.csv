@@ -1,0 +1,6 @@
+trace_id,jid,official_occurrence_count,excess_duplicate_rows,kept_index,seen_indices,score_tie,present_once_in_deduplicated_catalog,resolution
+P5-DD-001,JVASP-100669,2,1,16288,"[16288, 55682]",True,True,deterministic_first_seen_among_equal_quality_scores
+P5-DD-002,JVASP-113961,2,1,51690,"[51690, 51754]",True,True,deterministic_first_seen_among_equal_quality_scores
+P5-DD-003,JVASP-116461,3,2,52707,"[52707, 52809, 54845]",True,True,deterministic_first_seen_among_equal_quality_scores
+P5-DD-004,JVASP-96735,6,5,13734,"[13734, 45200, 47882, 51751, 54650, 55665]",True,True,deterministic_first_seen_among_equal_quality_scores
+P5-DD-005,JVASP-97311,3,2,1585,"[1585, 48333, 53627]",True,True,deterministic_first_seen_among_equal_quality_scores

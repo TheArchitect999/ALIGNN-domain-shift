@@ -1,0 +1,3 @@
+embedding_source,pca_fit_subset,component,explained_variance_ratio,explained_variance_percent,source_npz_path,source_npz_key
+last_alignn_pool,balanced_pool,1,0.1812648448044146,18.12648448044146,results/embeddings/embeddings/balanced_pool/structure_embeddings.npz,last_alignn_pool
+last_alignn_pool,balanced_pool,2,0.09471929327113042,9.471929327113042,results/embeddings/embeddings/balanced_pool/structure_embeddings.npz,last_alignn_pool

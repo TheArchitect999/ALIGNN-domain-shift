@@ -1,0 +1,17 @@
+{
+  "counts_by_family": {
+    "nitride": 2046,
+    "oxide": 2046
+  },
+  "counts_by_split": {
+    "train": 3676,
+    "val": 416
+  },
+  "created_by": "scripts/embedding_analysis/02_build_embedding_metadata.py",
+  "ids_csv": "./results/embeddings/subsets/balanced_pool_set/ids.csv",
+  "ids_json": "./results/embeddings/subsets/balanced_pool_set/ids.json",
+  "metadata_csv": "./results/embeddings/subsets/balanced_pool_set/metadata.csv",
+  "random_seed": 42,
+  "row_count": 4092,
+  "subset_name": "balanced_pool_set"
+}

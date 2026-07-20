@@ -1,0 +1,9 @@
+{
+  "results_root": "results/protocol_3",
+  "run_subdir": "train_alignn_from_scratch_epochs100_bs32_lr5e5",
+  "expected_runs": 20,
+  "actual_runs": 20,
+  "complete": true,
+  "report_dir": "results/derived_evidence/from_scratch_epochs100_bs32_lr5e5",
+  "summary_csv": "results/derived_evidence/from_scratch_epochs100_bs32_lr5e5/from_scratch_summary.csv"
+}

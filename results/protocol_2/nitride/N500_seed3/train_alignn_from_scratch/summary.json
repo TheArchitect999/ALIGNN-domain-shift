@@ -1,0 +1,18 @@
+{
+  "dataset_root": "results/protocol_2/nitride/N500_seed3/dataset_root",
+  "output_dir": "results/protocol_2/nitride/N500_seed3/train_alignn_from_scratch",
+  "device": "cuda",
+  "n_train": 450,
+  "n_val": 50,
+  "n_test": 242,
+  "epochs": 300,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "train_protocol": "from_scratch",
+  "train_mae_eV_per_atom": 0.04241811995109957,
+  "val_best_l1": 0.3636583983898163,
+  "test_l1": 0.26659540459513664,
+  "test_mae_eV_per_atom": 0.25998379221601675,
+  "prediction_csv": "results/protocol_2/nitride/N500_seed3/train_alignn_from_scratch/prediction_results_test_set.csv",
+  "elapsed_seconds": 411.3762938976288
+}

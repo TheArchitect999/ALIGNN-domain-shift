@@ -1,0 +1,37 @@
+{
+  "analysis_space": "raw_256d_embedding_vectors",
+  "bootstrap_iterations": 5000,
+  "created_at_unix": 1776615067.581125,
+  "created_by": "scripts/embedding_analysis/07_analyze_nitride_distance_vs_error.py",
+  "distance_metrics": [
+    "oxide_centroid_distance",
+    "oxide_knn5_mean_distance",
+    "oxide_mahalanobis_lw_distance"
+  ],
+  "embedding_sources": [
+    "pre_head",
+    "last_alignn_pool",
+    "last_gcn_pool"
+  ],
+  "hard_easy_definition": "top/bottom 20% of fixed-test nitrides by absolute zero-shot error",
+  "inputs": {
+    "fixed_test_set_metadata": "results/embeddings/embeddings/test_set/structure_embedding_metadata.csv",
+    "fixed_test_set_npz": "results/embeddings/embeddings/test_set/structure_embeddings.npz",
+    "oxide_reference_pool_metadata": "results/embeddings/embeddings/oxide_reference_pool/structure_embedding_metadata.csv",
+    "oxide_reference_pool_npz": "results/embeddings/embeddings/oxide_reference_pool/structure_embeddings.npz"
+  },
+  "k_oxide_neighbors": 5,
+  "outputs": {
+    "distance_csv": "results/reproduction/embeddings/tables/nitride_distance_error_by_structure.csv",
+    "figure_dir": "results/reproduction/embeddings/figures/distance_vs_error",
+    "stats_csv": "results/reproduction/embeddings/tables/nitride_distance_error_stats.csv",
+    "summary_md": "results/reproduction/embeddings/domain_shift_hypothesis_test.md"
+  },
+  "permutation_iterations": 10000,
+  "primary_distance_metrics": [
+    "oxide_centroid_distance",
+    "oxide_knn5_mean_distance"
+  ],
+  "projection_used_for_tests": false,
+  "seed": 42
+}

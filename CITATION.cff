@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Is Fine-Tuning Worth It? Reusing a Pretrained AI Model to Predict the Stability of New Materials"
+abstract: >-
+  Code, data manifests, governed results, and reproducible analyses for a
+  chemical-family-shift audit of a pretrained JARVIS-DFT ALIGNN formation-energy
+  model across an oxide comparator and a nitride target.
+type: software
+authors:
+  - family-names: Ahmed
+    given-names: Faizan
+    orcid: "https://orcid.org/0009-0003-1857-9348"
+    affiliation: "King Fahd University of Petroleum and Minerals"
+  - family-names: "Bin Sarwar"
+    given-names: "Muhammad Ali"
+    orcid: "https://orcid.org/0009-0009-8398-0430"
+    affiliation: "King Fahd University of Petroleum and Minerals"
+  - family-names: Saifaddin
+    given-names: Burhan
+    orcid: "https://orcid.org/0000-0002-3870-2097"
+    affiliation: "King Fahd University of Petroleum and Minerals"
+repository-code: "https://github.com/TheArchitect999/ALIGNN-domain-shift"
+license: MIT
+version: "1.0.0"
+date-released: "2026-07-20"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21398774"
+    description: "Archived artifacts (pretrained checkpoint mirror and dataset structures)"
+keywords:
+  - ALIGNN
+  - crystal graph neural networks
+  - transfer learning
+  - chemical-family shift
+  - formation energy
+  - materials informatics
+  - JARVIS-DFT
+  - reproducible research
+notes: >-
+  The associated manuscript is under review; this citation will be updated with
+  the publication reference once available.

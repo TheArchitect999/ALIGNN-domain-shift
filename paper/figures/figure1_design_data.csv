@@ -1,0 +1,8 @@
+fact_id,value,units,source_path,selector
+F1-OXIDE-DEFINITION,"contains O, including O+N records",text,data/readme.md,approved_definition.oxide
+F1-NITRIDE-DEFINITION,contains N and does not contain O,text,data/readme.md,approved_definition.nitride
+F1-OXIDE-NTEST,1484,structures,data/oxide/summaries/summary.json,counts.test
+F1-NITRIDE-NTEST,242,structures,data/nitride/summaries/summary.json,counts.test
+F1-OXYNITRIDE-COUNT,499,structures,data/readme.md,oxynitride_count
+F1-OXIDE-OVERLAP,0,JIDs,paper/supplementary/data/checkpoint_fixed_test_overlap.csv,family=oxide;column=overlap_count
+F1-NITRIDE-OVERLAP,0,JIDs,paper/supplementary/data/checkpoint_fixed_test_overlap.csv,family=nitride;column=overlap_count

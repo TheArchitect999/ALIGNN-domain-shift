@@ -1,0 +1,16 @@
+{
+  "counts_by_family": {
+    "oxide": 13507
+  },
+  "counts_by_split": {
+    "train": 11960,
+    "val": 1547
+  },
+  "created_by": "scripts/embedding_analysis/02_build_embedding_metadata.py",
+  "ids_csv": "./results/embeddings/subsets/oxide_reference_pool/ids.csv",
+  "ids_json": "./results/embeddings/subsets/oxide_reference_pool/ids.json",
+  "metadata_csv": "./results/embeddings/subsets/oxide_reference_pool/metadata.csv",
+  "random_seed": 42,
+  "row_count": 13507,
+  "subset_name": "oxide_reference_pool"
+}

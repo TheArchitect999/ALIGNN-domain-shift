@@ -1,0 +1,26 @@
+{
+  "families": [
+    "oxide",
+    "nitride"
+  ],
+  "Ns": [
+    10,
+    50,
+    100,
+    200,
+    500,
+    1000
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "results_root": "results/protocol_3",
+  "run_subdir": "finetune_last2_epochs100_bs32_lr5e5",
+  "expected_runs": 60,
+  "actual_runs": 60,
+  "complete": true
+}

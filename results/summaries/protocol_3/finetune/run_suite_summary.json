@@ -1,0 +1,8 @@
+{
+  "experiment_tag": "finetune_last2_epochs100_bs32_lr5e5",
+  "run_subdir": "finetune_last2_epochs100_bs32_lr5e5",
+  "requested_runs": 60,
+  "completed_runs": 60,
+  "skipped_existing_runs": 0,
+  "failed_runs": []
+}

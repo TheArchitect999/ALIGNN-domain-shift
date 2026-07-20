@@ -1,0 +1,18 @@
+{
+  "dataset_root": "results/protocol_3/oxide/N50_seed1/dataset_root",
+  "output_dir": "results/protocol_3/oxide/N50_seed1/train_alignn_from_scratch_epochs100_bs32_lr5e5",
+  "device": "cuda",
+  "n_train": 45,
+  "n_val": 5,
+  "n_test": 1484,
+  "epochs": 100,
+  "batch_size": 32,
+  "learning_rate": 5e-05,
+  "train_protocol": "from_scratch",
+  "train_mae_eV_per_atom": 0.1344451990392473,
+  "val_best_l1": 0.5120070576667786,
+  "test_l1": 0.568628820333075,
+  "test_mae_eV_per_atom": 0.5594283735824842,
+  "prediction_csv": "results/protocol_3/oxide/N50_seed1/train_alignn_from_scratch_epochs100_bs32_lr5e5/prediction_results_test_set.csv",
+  "elapsed_seconds": 64.05717349052429
+}

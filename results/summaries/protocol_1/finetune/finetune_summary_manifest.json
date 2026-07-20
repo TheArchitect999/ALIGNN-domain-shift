@@ -1,0 +1,28 @@
+{
+  "results_root": "results/protocol_1",
+  "zero_shot_summary": "results/zero_shot/zero_shot_summary.csv",
+  "run_subdir": "finetune_last2",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "runs_csv": "results/summaries/protocol_1/finetune/finetune_runs.csv",
+  "summary_csv": "results/summaries/protocol_1/finetune/finetune_summary_by_N.csv",
+  "wide_csv": "results/summaries/protocol_1/finetune/finetune_summary_wide.csv",
+  "canonical_zero_shot_summary": "results/zero_shot/zero_shot_summary.csv",
+  "latex_table": "results/summaries/protocol_1/finetune/finetune_summary_table.tex",
+  "progress_manifest": "results/summaries/protocol_1/finetune/progress_manifest.json",
+  "plots": {
+    "oxide": {
+      "png": "results/derived_evidence/protocol_1/Learning Curves/Oxide Learning Curve - protocol_1.png",
+      "pdf": "results/derived_evidence/protocol_1/Learning Curves/Oxide Learning Curve - protocol_1.pdf"
+    },
+    "nitride": {
+      "png": "results/derived_evidence/protocol_1/Learning Curves/Nitride Learning Curve - protocol_1.png",
+      "pdf": "results/derived_evidence/protocol_1/Learning Curves/Nitride Learning Curve - protocol_1.pdf"
+    }
+  }
+}

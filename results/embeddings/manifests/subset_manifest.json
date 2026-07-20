@@ -1,0 +1,136 @@
+{
+  "counts": [
+    {
+      "count": 242,
+      "family": "nitride",
+      "split": "test",
+      "subset_name": "fixed_test_set"
+    },
+    {
+      "count": 1484,
+      "family": "oxide",
+      "split": "test",
+      "subset_name": "fixed_test_set"
+    },
+    {
+      "count": 242,
+      "family": "nitride",
+      "split": "all",
+      "subset_name": "fixed_test_set"
+    },
+    {
+      "count": 1484,
+      "family": "oxide",
+      "split": "all",
+      "subset_name": "fixed_test_set"
+    },
+    {
+      "count": 1726,
+      "family": "all",
+      "split": "all",
+      "subset_name": "fixed_test_set"
+    },
+    {
+      "count": 1837,
+      "family": "nitride",
+      "split": "train",
+      "subset_name": "balanced_pool_set"
+    },
+    {
+      "count": 209,
+      "family": "nitride",
+      "split": "val",
+      "subset_name": "balanced_pool_set"
+    },
+    {
+      "count": 1839,
+      "family": "oxide",
+      "split": "train",
+      "subset_name": "balanced_pool_set"
+    },
+    {
+      "count": 207,
+      "family": "oxide",
+      "split": "val",
+      "subset_name": "balanced_pool_set"
+    },
+    {
+      "count": 2046,
+      "family": "nitride",
+      "split": "all",
+      "subset_name": "balanced_pool_set"
+    },
+    {
+      "count": 2046,
+      "family": "oxide",
+      "split": "all",
+      "subset_name": "balanced_pool_set"
+    },
+    {
+      "count": 4092,
+      "family": "all",
+      "split": "all",
+      "subset_name": "balanced_pool_set"
+    },
+    {
+      "count": 11960,
+      "family": "oxide",
+      "split": "train",
+      "subset_name": "oxide_reference_pool"
+    },
+    {
+      "count": 1547,
+      "family": "oxide",
+      "split": "val",
+      "subset_name": "oxide_reference_pool"
+    },
+    {
+      "count": 13507,
+      "family": "oxide",
+      "split": "all",
+      "subset_name": "oxide_reference_pool"
+    },
+    {
+      "count": 13507,
+      "family": "all",
+      "split": "all",
+      "subset_name": "oxide_reference_pool"
+    }
+  ],
+  "created_at_unix": 1776600908.093308,
+  "created_by": "scripts/embedding_analysis/02_build_embedding_metadata.py",
+  "random_seed": 42,
+  "sampling": {
+    "balanced_pool_set": {
+      "nitride_pool_rule": "include all rows from data/nitride/manifests/pool.csv",
+      "output_order": "selected oxide rows in canonical manifest order, then all nitride pool rows in canonical manifest order",
+      "oxide_pool_rule": "sample len(nitride_pool) row indices from data/oxide/manifests/pool.csv with random.Random(seed).sample"
+    }
+  },
+  "subsets": [
+    {
+      "ids_csv": "./results/embeddings/subsets/fixed_test_set/ids.csv",
+      "ids_json": "./results/embeddings/subsets/fixed_test_set/ids.json",
+      "manifest_json": "./results/embeddings/subsets/fixed_test_set/manifest.json",
+      "metadata_csv": "./results/embeddings/subsets/fixed_test_set/metadata.csv",
+      "row_count": 1726,
+      "subset_name": "fixed_test_set"
+    },
+    {
+      "ids_csv": "./results/embeddings/subsets/balanced_pool_set/ids.csv",
+      "ids_json": "./results/embeddings/subsets/balanced_pool_set/ids.json",
+      "manifest_json": "./results/embeddings/subsets/balanced_pool_set/manifest.json",
+      "metadata_csv": "./results/embeddings/subsets/balanced_pool_set/metadata.csv",
+      "row_count": 4092,
+      "subset_name": "balanced_pool_set"
+    },
+    {
+      "ids_csv": "./results/embeddings/subsets/oxide_reference_pool/ids.csv",
+      "ids_json": "./results/embeddings/subsets/oxide_reference_pool/ids.json",
+      "manifest_json": "./results/embeddings/subsets/oxide_reference_pool/manifest.json",
+      "metadata_csv": "./results/embeddings/subsets/oxide_reference_pool/metadata.csv",
+      "row_count": 13507,
+      "subset_name": "oxide_reference_pool"
+    }
+  ]
+}

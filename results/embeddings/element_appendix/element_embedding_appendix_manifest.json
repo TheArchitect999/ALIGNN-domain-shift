@@ -1,0 +1,67 @@
+{
+  "appendix_only": true,
+  "construction": {
+    "cgcnn_feature_shape": [
+      80,
+      92
+    ],
+    "construction": "effective_element_embeddings_for_Z_1_to_80_from_cgcnn_features_through_pretrained_atom_embedding_mlp_eval_mode",
+    "embedding_source": "atom_embedding.layer.0.weight plus BatchNorm1d and SiLU",
+    "padding_row_status": "no explicit padding row exists for this CGCNN-feature MLP; rows are constructed directly for Z=1..80",
+    "post_batchnorm_silu": true,
+    "raw_weight_key": "atom_embedding.layer.0.weight",
+    "raw_weight_shape": [
+      256,
+      92
+    ]
+  },
+  "correlation_properties": [
+    "electronegativity",
+    "atomic_radius",
+    "valence_electrons"
+  ],
+  "created_at_unix": 1776616166.127915,
+  "created_by": "scripts/embedding_analysis/09_optional_element_embedding_appendix.py",
+  "element_range": {
+    "n": 80,
+    "z_max": 80,
+    "z_min": 1
+  },
+  "embedding_dim": 256,
+  "figures": [
+    "results/reproduction/embeddings/figures/element_appendix/element_embedding_pca.png",
+    "results/reproduction/embeddings/figures/element_appendix/element_embedding_pca.pdf",
+    "results/reproduction/embeddings/figures/element_appendix/element_embedding_tsne.png",
+    "results/reproduction/embeddings/figures/element_appendix/element_embedding_tsne.pdf",
+    "results/reproduction/embeddings/figures/element_appendix/element_embedding_umap.png",
+    "results/reproduction/embeddings/figures/element_appendix/element_embedding_umap.pdf"
+  ],
+  "inputs": {
+    "checkpoint": "models/pretrained/checkpoint_300.pt",
+    "config": "configs/pretrained/config.json"
+  },
+  "not_main_domain_shift_result": true,
+  "outputs": {
+    "coordinates_csv": "results/embeddings/element_appendix/element_embedding_coordinates.csv",
+    "element_embedding_table_csv": "results/embeddings/element_appendix/element_embedding_table.csv",
+    "element_embedding_table_npy": "results/embeddings/element_appendix/element_embedding_table.npy",
+    "figure_dir": "results/reproduction/embeddings/figures/element_appendix",
+    "property_correlations_csv": "results/reproduction/embeddings/tables/element_embedding_property_correlations.csv",
+    "raw_atom_embedding_weight_npy": "results/embeddings/element_appendix/atom_embedding_layer0_weight.npy",
+    "report": "results/reproduction/embeddings/appendix_element_embeddings.md"
+  },
+  "permutation_iterations": 5000,
+  "projection_diagnostics": {
+    "pca_explained_variance_ratio": [
+      0.16707798773317872,
+      0.11856802568018547
+    ],
+    "standardized_before_projection": true,
+    "tsne_init": "pca initialization only",
+    "tsne_kl_divergence": 0.2178918868303299,
+    "tsne_perplexity": 15,
+    "umap_min_dist": 0.1,
+    "umap_n_neighbors": 15
+  },
+  "seed": 42
+}

@@ -1,0 +1,35 @@
+{
+  "bootstrap_iterations": 1000,
+  "created_at_unix": 1776614422.637995,
+  "created_by": "scripts/embedding_analysis/06_quantify_family_separation.py",
+  "cv_folds": 5,
+  "embedding_sources": [
+    "pre_head",
+    "last_alignn_pool",
+    "last_gcn_pool"
+  ],
+  "inputs": {
+    "balanced_pool_set": {
+      "metadata": "results/embeddings/embeddings/balanced_pool/structure_embedding_metadata.csv",
+      "npz": "results/embeddings/embeddings/balanced_pool/structure_embeddings.npz"
+    },
+    "fixed_test_set": {
+      "metadata": "results/embeddings/embeddings/test_set/structure_embedding_metadata.csv",
+      "npz": "results/embeddings/embeddings/test_set/structure_embeddings.npz"
+    }
+  },
+  "k_neighbors": 15,
+  "metrics": [
+    "silhouette_score",
+    "davies_bouldin_index",
+    "knn_family_purity",
+    "logistic_regression_family_auc"
+  ],
+  "outputs": {
+    "metrics_csv": "results/reproduction/embeddings/tables/family_separation_metrics.csv",
+    "summary_md": "results/reproduction/embeddings/family_separation_summary.md"
+  },
+  "projected_space_used": false,
+  "seed": 42,
+  "space": "raw_256d_embedding_vectors"
+}

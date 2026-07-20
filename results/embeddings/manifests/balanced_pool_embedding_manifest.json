@@ -1,0 +1,95 @@
+{
+  "command": "scripts/embedding_analysis/01_extract_structure_embeddings.py --subset-metadata results/embeddings/subsets/balanced_pool_set/metadata.csv --subset-name balanced_pool_set --embedding-folder-name balanced_pool --hook-selection all --output-dir results/embeddings --seed 123 --batch-size 64 --num-workers 0",
+  "counts_by_family": {
+    "nitride": 2046,
+    "oxide": 2046
+  },
+  "created_at_unix": 1776609244.662691,
+  "dataset_subset": "test",
+  "diagnostics": {
+    "counts_by_family": {
+      "nitride": 2046,
+      "oxide": 2046
+    },
+    "counts_by_split": {
+      "train": 3676,
+      "val": 416
+    },
+    "loaded_rows": 4092,
+    "missing_structure_files": 0,
+    "missing_targets": 0,
+    "subset_metadata": "results/embeddings/subsets/balanced_pool_set/metadata.csv"
+  },
+  "elapsed_seconds": 97.1406922340393,
+  "embedding_shapes": {
+    "last_alignn_pool": [
+      4092,
+      256
+    ],
+    "last_gcn_pool": [
+      4092,
+      256
+    ],
+    "pre_head": [
+      4092,
+      256
+    ]
+  },
+  "embedding_sources": {
+    "last_alignn_pool": {
+      "description": "Avg-pooled node tensor x returned by the last ALIGNNConv block, before the gated GCN stack.",
+      "layer_name": "alignn_layers.3",
+      "module_path": "model.alignn_layers[3]"
+    },
+    "last_gcn_pool": {
+      "description": "Avg-pooled node tensor x returned by the last EdgeGatedGraphConv GCN block. In this config it should match pre_head.",
+      "layer_name": "gcn_layers.3",
+      "module_path": "model.gcn_layers[3]"
+    },
+    "pre_head": {
+      "description": "Avg-pooled crystal-graph node representation produced by model.readout immediately before model.fc.",
+      "layer_name": "readout",
+      "module_path": "model.readout"
+    }
+  },
+  "families": [
+    "oxide",
+    "nitride"
+  ],
+  "inputs": {
+    "checkpoint": "models/pretrained/checkpoint_300.pt",
+    "config": "configs/pretrained/config.json",
+    "manifests": [],
+    "subset_metadata": "results/embeddings/subsets/balanced_pool_set/metadata.csv",
+    "zero_shot_predictions": [
+      "results/zero_shot/oxide/predictions.csv",
+      "results/zero_shot/nitride/predictions.csv"
+    ]
+  },
+  "output_name": "balanced_pool",
+  "parquet_status": {
+    "path": "./results/embeddings/embeddings/balanced_pool/structure_embedding_metadata.parquet",
+    "reason": "Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.\nA suitable version of pyarrow or fastparquet is required for parquet support.\nTrying to import the above resulted in these errors:\n - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.\n - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet.",
+    "written": false
+  },
+  "paths": {
+    "manifest_json": "./results/embeddings/manifests/balanced_pool_embedding_manifest.json",
+    "metadata_csv": "./results/embeddings/embeddings/balanced_pool/structure_embedding_metadata.csv",
+    "metadata_parquet": "./results/embeddings/embeddings/balanced_pool/structure_embedding_metadata.parquet",
+    "npz": "./results/embeddings/embeddings/balanced_pool/structure_embeddings.npz",
+    "structure_records_csv": "./results/embeddings/manifests/balanced_pool_structure_records.csv"
+  },
+  "runtime_versions": {
+    "alignn": "2025.4.1",
+    "dgl": "1.1.1",
+    "jarvis-tools": "2026.4.2",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "torch": "2.2.1"
+  },
+  "source_diffs": {
+    "max_abs_pre_head_minus_last_gcn_pool": 0.0
+  },
+  "subset_name": "balanced_pool_set",
+  "total_structures": 4092
+}

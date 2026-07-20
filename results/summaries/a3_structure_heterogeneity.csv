@@ -1,0 +1,5 @@
+family,N,frac_improved_perseed_mean,frac_improved_perseed_sd,frac_improved_seedmean_ae
+oxide,500,0.4204,0.0086,0.3821
+oxide,1000,0.4276,0.0068,0.4057
+nitride,500,0.3736,0.0156,0.3554
+nitride,1000,0.3876,0.0254,0.3471

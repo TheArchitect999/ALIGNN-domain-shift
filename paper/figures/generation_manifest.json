@@ -1,0 +1,123 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "figure1_design_data",
+      "path": "paper/figures/figure1_design_data.csv",
+      "sha256": "01435da789191192e6dce5dcda07bbe794705aa5c368fe0a9cd59a026602067c",
+      "size_bytes": 709
+    },
+    {
+      "artifact_id": "FIG1_STUDY_DESIGN_PNG",
+      "path": "paper/figures/figure1_study_design.png",
+      "sha256": "c0ebb43de55f657ffa74a59b48da4b528899b873499dcf92864f32ceff314f08",
+      "size_bytes": 254420
+    },
+    {
+      "artifact_id": "FIG1_STUDY_DESIGN_SVG",
+      "path": "paper/figures/figure1_study_design.svg",
+      "sha256": "6cb9e3a140302e1de73f3b6dda5341490330a133455fb12379cc14f4981276b9",
+      "size_bytes": 9473
+    },
+    {
+      "artifact_id": "figure2_learning_curve_plot_data",
+      "path": "paper/figures/figure2_learning_curve_plot_data.csv",
+      "sha256": "a8e881b538a478478d9df8f509ff1e8f84a7818f347359eb2d0cb95739006de8",
+      "size_bytes": 10410
+    },
+    {
+      "artifact_id": "FIG2_ZERO_SHOT_LEARNING_PNG",
+      "path": "paper/figures/figure2_zero_shot_and_learning_curves.png",
+      "sha256": "e9f9289612b8ba40541ff0cfda12e37b7565cc275db545e852a668efa0981ddd",
+      "size_bytes": 243792
+    },
+    {
+      "artifact_id": "FIG2_ZERO_SHOT_LEARNING_SVG",
+      "path": "paper/figures/figure2_zero_shot_and_learning_curves.svg",
+      "sha256": "9e6d303486d99ae58f392adf262836c38a5715fe085bdcc6bd3b8a012694e629",
+      "size_bytes": 41201
+    },
+    {
+      "artifact_id": "figure2_zero_shot_plot_data",
+      "path": "paper/figures/figure2_zero_shot_plot_data.csv",
+      "sha256": "355a4282dbbf4f9755911422baab864074ababd493f81f256456dc60ce4cb540",
+      "size_bytes": 547
+    },
+    {
+      "artifact_id": "figure3_best_epoch_plot_data",
+      "path": "paper/figures/figure3_best_epoch_plot_data.csv",
+      "sha256": "e88a539e948ee309684486ead15ab8dfdd06e73f8162d524127a23f4b02e2a61",
+      "size_bytes": 13419
+    },
+    {
+      "artifact_id": "figure3_comparison_plot_data",
+      "path": "paper/figures/figure3_comparison_plot_data.csv",
+      "sha256": "d27889f151ffe00a4b27e8e9f296c6b4dcc38398e32ff14c8c303618a3d9e81a",
+      "size_bytes": 7152
+    },
+    {
+      "artifact_id": "FIG3_PRETRAINING_ENGAGEMENT_PNG",
+      "path": "paper/figures/figure3_pretraining_benefit_and_engagement.png",
+      "sha256": "9c6bd69f3ce5afccefdc4a8d16337dc8c3940ef8bb3b68af08168dfabdf95412",
+      "size_bytes": 226762
+    },
+    {
+      "artifact_id": "FIG3_PRETRAINING_ENGAGEMENT_SVG",
+      "path": "paper/figures/figure3_pretraining_benefit_and_engagement.svg",
+      "sha256": "f917ba317a73cc239124677faa1006bb6fdc63baa9e138eb5feeff8b15bf665f",
+      "size_bytes": 60469
+    },
+    {
+      "artifact_id": "figure4_distance_error_plot_data",
+      "path": "paper/figures/figure4_distance_error_plot_data.csv",
+      "sha256": "f0f48fc20207f142210e90a83eaf0d7c950489b2bf3140ee70170b3d5cad95fd",
+      "size_bytes": 31802
+    },
+    {
+      "artifact_id": "figure4_distance_error_statistics",
+      "path": "paper/figures/figure4_distance_error_statistics.csv",
+      "sha256": "7ffbccc7c34a546d53d3f8092fa95e46e9d8217ca684420e002e306503883a44",
+      "size_bytes": 616
+    },
+    {
+      "artifact_id": "figure4_pca_explained_variance",
+      "path": "paper/figures/figure4_pca_explained_variance.csv",
+      "sha256": "16b18a91f20aa296875d23db320a69a9f49204414eaa35d0c2988d4ac45db495",
+      "size_bytes": 438
+    },
+    {
+      "artifact_id": "figure4_pca_plot_data",
+      "path": "paper/figures/figure4_pca_plot_data.csv",
+      "sha256": "b11e689abec7576917e6a30166fe5aae81648027322da38974caec5488c2f7c7",
+      "size_bytes": 359341
+    },
+    {
+      "artifact_id": "FIG4_REPRESENTATION_DISTANCE_PNG",
+      "path": "paper/figures/figure4_representation_geometry.png",
+      "sha256": "45970933fc31eeab08c587f9be7ebbed01d1858c72061a56f9d69265efbda06a",
+      "size_bytes": 618703
+    },
+    {
+      "artifact_id": "FIG4_REPRESENTATION_DISTANCE_SVG",
+      "path": "paper/figures/figure4_representation_geometry.svg",
+      "sha256": "270497a798925302cbc3bd81e1b51510a0b8ed7d7acaba73f7d47639947f83ff",
+      "size_bytes": 369670
+    },
+    {
+      "artifact_id": "figure_captions_and_alt_text",
+      "path": "paper/figures/figure_captions_and_alt_text.md",
+      "sha256": "0db8cbe51ef23a7a3b92568883d2f180ebb3bbd9fa62efefebc325d168ebd697",
+      "size_bytes": 5045
+    }
+  ],
+  "numerical_traceability": "paper/evidence_manifest.csv",
+  "producer": {
+    "path": "scripts/figures/generate_paper_figures.py"
+  },
+  "schema_version": 2,
+  "source_governance": {
+    "archived_submission_inputs_absent": true,
+    "dense_points_traced_by_plot_data_csv": true,
+    "local_workstation_paths_absent": true
+  },
+  "status": "CURATED_PUBLIC_FIGURES"
+}

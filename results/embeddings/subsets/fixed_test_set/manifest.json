@@ -1,0 +1,16 @@
+{
+  "counts_by_family": {
+    "nitride": 242,
+    "oxide": 1484
+  },
+  "counts_by_split": {
+    "test": 1726
+  },
+  "created_by": "scripts/embedding_analysis/02_build_embedding_metadata.py",
+  "ids_csv": "./results/embeddings/subsets/fixed_test_set/ids.csv",
+  "ids_json": "./results/embeddings/subsets/fixed_test_set/ids.json",
+  "metadata_csv": "./results/embeddings/subsets/fixed_test_set/metadata.csv",
+  "random_seed": 42,
+  "row_count": 1726,
+  "subset_name": "fixed_test_set"
+}

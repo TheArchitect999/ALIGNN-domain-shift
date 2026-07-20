@@ -1,0 +1,16 @@
+# Minimal conda environment for ALIGNN-domain-shift.
+# Creates a Python 3.11 env and installs the pinned dependency set via pip
+# (ALIGNN, DGL, and jarvis-tools are pip-distributed). GPU wheels (CUDA 12.1)
+# are pinned in requirements-frozen.txt; on CPU-only machines install a CPU
+# build of torch/dgl instead. See docs/REPRODUCING.md.
+#
+#   conda env create -f environment/environment.yml
+#   conda activate alignn-domain-shift
+name: alignn-domain-shift
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -r requirements-frozen.txt

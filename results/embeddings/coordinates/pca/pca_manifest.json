@@ -1,0 +1,67 @@
+{
+  "command": "scripts/embedding_analysis/03_plot_pca.py --seed 42",
+  "created_at_unix": 1776610565.829546,
+  "created_by": "scripts/embedding_analysis/03_plot_pca.py",
+  "datasets": {
+    "balanced_pool_set": {
+      "metadata": "results/embeddings/embeddings/balanced_pool/structure_embedding_metadata.csv",
+      "n_structures": 4092,
+      "npz": "results/embeddings/embeddings/balanced_pool/structure_embeddings.npz"
+    },
+    "fixed_test_set": {
+      "metadata": "results/embeddings/embeddings/test_set/structure_embedding_metadata.csv",
+      "n_structures": 1726,
+      "npz": "results/embeddings/embeddings/test_set/structure_embeddings.npz"
+    },
+    "oxide_reference_pool": {
+      "metadata": "results/embeddings/embeddings/oxide_reference_pool/structure_embedding_metadata.csv",
+      "n_structures": 13507,
+      "npz": "results/embeddings/embeddings/oxide_reference_pool/structure_embeddings.npz"
+    }
+  },
+  "embedding_sources": [
+    "pre_head",
+    "last_alignn_pool",
+    "last_gcn_pool"
+  ],
+  "method": {
+    "n_components": 2,
+    "pca_fit_subset": "balanced_pool_set",
+    "role": "standalone linear baseline visualization and variance summary",
+    "standardization": "StandardScaler fit on balanced_pool_set per embedding source",
+    "svd_solver": "full"
+  },
+  "outputs": {
+    "coordinates_dir": "results/embeddings/coordinates/pca",
+    "explained_variance_csv": "results/reproduction/embeddings/tables/pca_explained_variance.csv",
+    "figure_dir": "results/reproduction/embeddings/figures/pca",
+    "figures": [
+      "results/reproduction/embeddings/figures/pca/pre_head_fixed_test_family.png",
+      "results/reproduction/embeddings/figures/pca/pre_head_fixed_test_family.pdf",
+      "results/reproduction/embeddings/figures/pca/pre_head_balanced_pool_family.png",
+      "results/reproduction/embeddings/figures/pca/pre_head_balanced_pool_family.pdf",
+      "results/reproduction/embeddings/figures/pca/pre_head_nitride_test_abs_error.png",
+      "results/reproduction/embeddings/figures/pca/pre_head_nitride_test_abs_error.pdf",
+      "results/reproduction/embeddings/figures/pca/pre_head_hard_easy_nitrides_on_balanced_pool.png",
+      "results/reproduction/embeddings/figures/pca/pre_head_hard_easy_nitrides_on_balanced_pool.pdf",
+      "results/reproduction/embeddings/figures/pca/last_alignn_pool_fixed_test_family.png",
+      "results/reproduction/embeddings/figures/pca/last_alignn_pool_fixed_test_family.pdf",
+      "results/reproduction/embeddings/figures/pca/last_alignn_pool_balanced_pool_family.png",
+      "results/reproduction/embeddings/figures/pca/last_alignn_pool_balanced_pool_family.pdf",
+      "results/reproduction/embeddings/figures/pca/last_alignn_pool_nitride_test_abs_error.png",
+      "results/reproduction/embeddings/figures/pca/last_alignn_pool_nitride_test_abs_error.pdf",
+      "results/reproduction/embeddings/figures/pca/last_alignn_pool_hard_easy_nitrides_on_balanced_pool.png",
+      "results/reproduction/embeddings/figures/pca/last_alignn_pool_hard_easy_nitrides_on_balanced_pool.pdf",
+      "results/reproduction/embeddings/figures/pca/last_gcn_pool_fixed_test_family.png",
+      "results/reproduction/embeddings/figures/pca/last_gcn_pool_fixed_test_family.pdf",
+      "results/reproduction/embeddings/figures/pca/last_gcn_pool_balanced_pool_family.png",
+      "results/reproduction/embeddings/figures/pca/last_gcn_pool_balanced_pool_family.pdf",
+      "results/reproduction/embeddings/figures/pca/last_gcn_pool_nitride_test_abs_error.png",
+      "results/reproduction/embeddings/figures/pca/last_gcn_pool_nitride_test_abs_error.pdf",
+      "results/reproduction/embeddings/figures/pca/last_gcn_pool_hard_easy_nitrides_on_balanced_pool.png",
+      "results/reproduction/embeddings/figures/pca/last_gcn_pool_hard_easy_nitrides_on_balanced_pool.pdf"
+    ],
+    "notes": "results/reproduction/embeddings/pca_notes.md"
+  },
+  "random_seed": 42
+}

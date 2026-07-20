@@ -1,0 +1,3 @@
+family,mae_eV_per_atom,ci_low_eV_per_atom,ci_high_eV_per_atom,confidence_level,bootstrap_replicates,n_structures,source_path,source_selector
+nitride,0.0695420149628485,0.0592773118916264,0.080615214119735,0.95,50000,242,paper/supplementary/data/pure_oxide_zero_shot_bootstrap_summary.csv,scenario=inclusive_oxide_vs_nitride;estimand=nitride_mae
+oxide,0.0341836068081309,0.0312159076829602,0.0373968582137852,0.95,50000,1484,paper/supplementary/data/pure_oxide_zero_shot_bootstrap_summary.csv,scenario=inclusive_oxide_vs_nitride;estimand=oxide_mae

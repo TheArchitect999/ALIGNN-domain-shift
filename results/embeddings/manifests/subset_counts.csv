@@ -1,0 +1,17 @@
+subset_name,family,split,count
+fixed_test_set,nitride,test,242
+fixed_test_set,oxide,test,1484
+fixed_test_set,nitride,all,242
+fixed_test_set,oxide,all,1484
+fixed_test_set,all,all,1726
+balanced_pool_set,nitride,train,1837
+balanced_pool_set,nitride,val,209
+balanced_pool_set,oxide,train,1839
+balanced_pool_set,oxide,val,207
+balanced_pool_set,nitride,all,2046
+balanced_pool_set,oxide,all,2046
+balanced_pool_set,all,all,4092
+oxide_reference_pool,oxide,train,11960
+oxide_reference_pool,oxide,val,1547
+oxide_reference_pool,oxide,all,13507
+oxide_reference_pool,all,all,13507

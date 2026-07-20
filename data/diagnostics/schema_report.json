@@ -1,0 +1,275 @@
+{
+  "candidate_boolean_split_key_counts": {
+    "is_test": 0,
+    "is_train": 0,
+    "is_val": 0,
+    "test": 0,
+    "train": 0,
+    "val": 0
+  },
+  "candidate_split_key_counts": {
+    "dataset_split": 0,
+    "partition": 0,
+    "set": 0,
+    "split": 0,
+    "split_label": 0,
+    "subset": 0,
+    "train_val_test": 0,
+    "tvt": 0
+  },
+  "duplicate_jid_examples": {},
+  "duplicate_resolution": {
+    "duplicate_examples": {
+      "JVASP-100669": {
+        "kept_index": 16288,
+        "kept_score": [
+          1,
+          1,
+          1,
+          62
+        ],
+        "scores": [
+          [
+            1,
+            1,
+            1,
+            62
+          ],
+          [
+            1,
+            1,
+            1,
+            62
+          ]
+        ],
+        "seen_indices": [
+          16288,
+          55682
+        ]
+      },
+      "JVASP-113961": {
+        "kept_index": 51690,
+        "kept_score": [
+          1,
+          1,
+          1,
+          62
+        ],
+        "scores": [
+          [
+            1,
+            1,
+            1,
+            62
+          ],
+          [
+            1,
+            1,
+            1,
+            62
+          ]
+        ],
+        "seen_indices": [
+          51690,
+          51754
+        ]
+      },
+      "JVASP-116461": {
+        "kept_index": 52707,
+        "kept_score": [
+          1,
+          1,
+          1,
+          62
+        ],
+        "scores": [
+          [
+            1,
+            1,
+            1,
+            62
+          ],
+          [
+            1,
+            1,
+            1,
+            62
+          ],
+          [
+            1,
+            1,
+            1,
+            62
+          ]
+        ],
+        "seen_indices": [
+          52707,
+          52809,
+          54845
+        ]
+      },
+      "JVASP-96735": {
+        "kept_index": 13734,
+        "kept_score": [
+          1,
+          1,
+          1,
+          63
+        ],
+        "scores": [
+          [
+            1,
+            1,
+            1,
+            63
+          ],
+          [
+            1,
+            1,
+            1,
+            63
+          ],
+          [
+            1,
+            1,
+            1,
+            63
+          ],
+          [
+            1,
+            1,
+            1,
+            63
+          ],
+          [
+            1,
+            1,
+            1,
+            63
+          ],
+          [
+            1,
+            1,
+            1,
+            63
+          ]
+        ],
+        "seen_indices": [
+          13734,
+          45200,
+          47882,
+          51751,
+          54650,
+          55665
+        ]
+      },
+      "JVASP-97311": {
+        "kept_index": 1585,
+        "kept_score": [
+          1,
+          1,
+          1,
+          62
+        ],
+        "scores": [
+          [
+            1,
+            1,
+            1,
+            62
+          ],
+          [
+            1,
+            1,
+            1,
+            62
+          ],
+          [
+            1,
+            1,
+            1,
+            62
+          ]
+        ],
+        "seen_indices": [
+          1585,
+          48333,
+          53627
+        ]
+      }
+    },
+    "duplicate_jid_total_extra_rows": 11,
+    "n_duplicate_jids": 5,
+    "n_input_records": 55723,
+    "n_unique_jids": 55712
+  },
+  "n_duplicate_jids_detected": 0,
+  "n_records": 55712,
+  "n_records_after_dedup": 55712,
+  "n_unique_jids_detected": 55712,
+  "top_level_keys_sorted": [
+    "atoms",
+    "avg_elec_mass",
+    "avg_hole_mass",
+    "bulk_modulus_kv",
+    "crys",
+    "density",
+    "dfpt_piezo_max_dielectric",
+    "dfpt_piezo_max_dielectric_electronic",
+    "dfpt_piezo_max_dielectric_ionic",
+    "dfpt_piezo_max_dij",
+    "dfpt_piezo_max_eij",
+    "dimensionality",
+    "effective_masses_300K",
+    "efg",
+    "ehull",
+    "elastic_tensor",
+    "encut",
+    "epsx",
+    "epsy",
+    "epsz",
+    "exfoliation_energy",
+    "formation_energy_peratom",
+    "formula",
+    "func",
+    "hse_gap",
+    "icsd",
+    "jid",
+    "kpoint_length_unit",
+    "magmom_oszicar",
+    "magmom_outcar",
+    "max_efg",
+    "max_ir_mode",
+    "maxdiff_bz",
+    "maxdiff_mesh",
+    "mbj_bandgap",
+    "mepsx",
+    "mepsy",
+    "mepsz",
+    "min_ir_mode",
+    "modes",
+    "n-Seebeck",
+    "n-powerfact",
+    "nat",
+    "ncond",
+    "nkappa",
+    "optb88vdw_bandgap",
+    "optb88vdw_total_energy",
+    "p-Seebeck",
+    "p-powerfact",
+    "pcond",
+    "pkappa",
+    "poisson",
+    "raw_files",
+    "reference",
+    "search",
+    "shear_modulus_gv",
+    "slme",
+    "spg",
+    "spg_number",
+    "spg_symbol",
+    "spillage",
+    "typ",
+    "xml_data_link"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "historical_seed0_fields_excluded": [
+    "finetune_seed0_test_mae_eV_per_atom",
+    "gain_vs_finetune_seed0"
+  ],
+  "rows": [
+    {
+      "N": 50,
+      "family": "nitride",
+      "finetune_mean_test_mae_eV_per_atom": 0.07167138799809468,
+      "finetune_runs": 5,
+      "finetune_std_test_mae_eV_per_atom": 0.0012301287882567015,
+      "scratch_mean_test_mae_eV_per_atom": 0.6914345625279978,
+      "scratch_minus_finetune_mae_eV_per_atom": 0.6197631745299031,
+      "scratch_runs": 5.0,
+      "scratch_std_test_mae_eV_per_atom": 0.01630822299466673,
+      "zero_shot_mae_eV_per_atom": 0.0695420149628485,
+      "zero_shot_minus_finetune_mae_eV_per_atom": -0.002129373035246185
+    },
+    {
+      "N": 500,
+      "family": "nitride",
+      "finetune_mean_test_mae_eV_per_atom": 0.079047120631911,
+      "finetune_runs": 5,
+      "finetune_std_test_mae_eV_per_atom": 0.0008835768053792632,
+      "scratch_mean_test_mae_eV_per_atom": 0.3682740165490257,
+      "scratch_minus_finetune_mae_eV_per_atom": 0.2892268959171147,
+      "scratch_runs": 5.0,
+      "scratch_std_test_mae_eV_per_atom": 0.023305927781258732,
+      "zero_shot_mae_eV_per_atom": 0.0695420149628485,
+      "zero_shot_minus_finetune_mae_eV_per_atom": -0.0095051056690625
+    },
+    {
+      "N": 50,
+      "family": "oxide",
+      "finetune_mean_test_mae_eV_per_atom": 0.037996865501985,
+      "finetune_runs": 5,
+      "finetune_std_test_mae_eV_per_atom": 0.0017408811915156177,
+      "scratch_mean_test_mae_eV_per_atom": 0.5560532795358512,
+      "scratch_minus_finetune_mae_eV_per_atom": 0.5180564140338662,
+      "scratch_runs": 5.0,
+      "scratch_std_test_mae_eV_per_atom": 0.05234908833632354,
+      "zero_shot_mae_eV_per_atom": 0.0341836068081309,
+      "zero_shot_minus_finetune_mae_eV_per_atom": -0.003813258693854099
+    },
+    {
+      "N": 500,
+      "family": "oxide",
+      "finetune_mean_test_mae_eV_per_atom": 0.03618776128728394,
+      "finetune_runs": 5,
+      "finetune_std_test_mae_eV_per_atom": 0.0001621432637268869,
+      "scratch_mean_test_mae_eV_per_atom": 0.2643359895387973,
+      "scratch_minus_finetune_mae_eV_per_atom": 0.22814822825151335,
+      "scratch_runs": 5.0,
+      "scratch_std_test_mae_eV_per_atom": 0.022803815863399746,
+      "zero_shot_mae_eV_per_atom": 0.0341836068081309,
+      "zero_shot_minus_finetune_mae_eV_per_atom": -0.0020041544791530377
+    }
+  ],
+  "schema_version": 1,
+  "supersedes_for_finetune_dependent_fields": "results/summaries/protocol_1/from_scratch/from_scratch_summary.csv"
+}

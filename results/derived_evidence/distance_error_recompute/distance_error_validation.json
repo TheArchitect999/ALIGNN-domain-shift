@@ -1,0 +1,90 @@
+{
+  "READY_FOR_validation_check_1": true,
+  "canonical_join": {
+    "expected": 242,
+    "extra": 0,
+    "missing": 0,
+    "validated": 242
+  },
+  "decision": {
+    "C6_MAIN": true,
+    "bh_fdr_q_value": 0.0001499850014998,
+    "ci_high": 0.4630498350417661,
+    "ci_low": 0.2253824022841729,
+    "decision": "INCLUDE_C6_IN_MAIN_PAPER",
+    "legacy_nine_cell_bh_fdr_q_value": 0.0001285585727141,
+    "legacy_nine_cell_decision_unchanged": true,
+    "spearman_rho": 0.3459563148988523
+  },
+  "determinism": {
+    "fresh_runs_match_final_package": true,
+    "producer_output_hashes": {
+      "distance_error_by_structure.csv": "da2159150e9e2d37bf8820ef6977746bf8e50a6cdd29a935e70b74ed210ec1f3",
+      "distance_error_decision.json": "794a1c3af7d8f0b5efe62cd39dc05fedbbb5f1e8283b9bab9d4cc884d4202c8a",
+      "distance_error_legacy_nine_cell_sensitivity.csv": "fa6971d6500d04ca42648d0e08d843e885646ed2d01b3eb9244000e714f19077",
+      "distance_error_protocol.json": "512cefa64a98c4fdb892cdda3b1eac0e5c7ad029440e35c9590b17463d1efd44",
+      "distance_error_recompute_report.md": "cc845d359a14141e50087af2ae0f4ec28a69459e5637d090f88d86c24daca73b",
+      "distance_error_statistics.csv": "245b822b39b96839fad9904a995109bbfda234250de9ca91d8b4fd2ff5fd4504",
+      "input_alignment_audit.json": "d9cfa02ab6a026be58622766e7527aa63cae4b566ade81763ac5d73b2f9687a8",
+      "input_output_manifest.csv": "01a40f2927a3ebe8f355aea5f932690cf534a736c80bcaff9c8fe5aa910df299"
+    },
+    "two_fresh_runs_byte_identical": true
+  },
+  "embedding": {
+    "easy_count": 49,
+    "hard_count": 49,
+    "mahalanobis_condition_number": 3145.417676701062,
+    "mahalanobis_shrinkage": 0.0006563927738960449,
+    "middle_count": 144,
+    "nitride_count": 242,
+    "oxide_reference_shape": [
+      13507,
+      256
+    ],
+    "pre_head_equals_last_gcn_pool_reference": true,
+    "pre_head_equals_last_gcn_pool_test": true,
+    "source": "last_alignn_pool",
+    "test_shape": [
+      1726,
+      256
+    ]
+  },
+  "frozen_hashes_verified_before_and_after": {
+    "results/zero_shot/nitride/predictions.csv": "2753f6f7e2381d11ecadef9cdccbaabb75563138a4def9ac04f8f8983f2f084f",
+    "results/embeddings/embeddings/oxide_reference_pool/structure_embedding_metadata.csv": "36bf44495692634365e1a1917a7227a37c474b8081fd259535a13998e7c0de83",
+    "results/embeddings/embeddings/oxide_reference_pool/structure_embeddings.npz": "e227999df6a9b280084977fede1797198197415eb63364107228e29878b99602",
+    "results/embeddings/embeddings/test_set/structure_embedding_metadata.csv": "88c263772533392df61b781e91b3f024cd7e501a584504c2d80d7e00d2101169",
+    "results/embeddings/embeddings/test_set/structure_embeddings.npz": "3958735acc3b93c42edd59cdf96f9e17a25adfcffe43dec05179be58aadbf57a",
+    "results/embeddings/manifests/nitride_distance_error_manifest.json": "b134dbdabe1bfb5ee1780145222dba1f08b6c31962c5c403d27ae8288234633a",
+    "results/reproduction/embeddings/domain_shift_hypothesis_test.md": "157c3280a9d58f8c2456742670b420989e9ad9a9f5c1ecb14c1daa1459a5aa30",
+    "results/reproduction/embeddings/tables/nitride_distance_error_by_structure.csv": "76a583c28b92e54e1d92b79c06cbd73705447394c110450ff393c14740a30a86",
+    "results/reproduction/embeddings/tables/nitride_distance_error_stats.csv": "2b70694045c1394b8e50dde6a57a9b33b99d7259102ba4b976c1e8875d871c70"
+  },
+  "legacy_nine_cell_sensitivity": {
+    "bh_fdr_q_value": 0.0001285585727141,
+    "cells_per_statistic": 9,
+    "decision_unchanged": true,
+    "pre_head_equals_last_gcn_pool": true,
+    "role": "sensitivity only; primary q3 controls C6_MAIN",
+    "rows_validated": 36
+  },
+  "producer": "scripts/analysis/recompute_distance_error_canonical.py",
+  "quarantined_output_hashes_verified": 40,
+  "quarantined_outputs_unchanged": true,
+  "safety": {
+    "canonical_inputs_modified": false,
+    "metadata_predictions_used_numerically": false,
+    "nested_checkout_used": false,
+    "section08_inspected": false,
+    "section08_used": false
+  },
+  "statistics": {
+    "bh_fdr_family_size": 3,
+    "bootstrap_iterations": 5000,
+    "independent_recomputation_match": true,
+    "permutation_iterations": 10000,
+    "rows_validated": 12
+  },
+  "status": "DISTANCE_ERROR_RECOMPUTE_VALIDATED",
+  "validator": "scripts/analysis/validate_distance_error_canonical.py"
+}
